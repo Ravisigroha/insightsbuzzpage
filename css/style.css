@@ -27,6 +27,15 @@ body{
     max-width: 95%;
     margin: 0px auto;
 }
+.about-company {
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+    padding: 40px;
+}
+.border-right {
+    border-right: 1px solid gray;
+}
 .sub-footer {
     display: none;
 }
@@ -38,8 +47,82 @@ body{
     margin-bottom: 10px;
     margin: 10px 0px;
 }
+.row.com-m {
+    margin: 0px 80px;
+}
 .about {
     color: white;
+}
+.car-texi {
+    width: 52px;
+    margin-bottom: 0px;
+    padding-left: 19px;
+}
+.texi-head {
+    color: #303134;
+    float: left;
+    font-family: proxima_novaregular;
+    font-size: 18px;
+    padding: 20px 0px 0px 40px;
+}
+.tablinks {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    border-radius: 50px 0 0px 50px;
+    padding: 5px 208px 5px 25px;
+}
+.menu-pad{
+    padding-top: 30px;
+}
+#Paris{
+    margin-top: 77px;
+}
+#Healthcare{
+    margin-top: 77px;
+}
+.airbnb-btn {
+    background-color: transparent;
+    color: #eb4a46;
+    display: inline-block;
+    line-height: 13px;
+    padding: 2px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #eb4a46;
+}
+.content-list-solution li {
+    margin: 10px auto;
+}
+.content-list-solution {
+    display: grid;
+    background-color: #0fa3cf;
+    padding: 50px 0px 50px 50px;
+}
+.tablinks.active {
+    background-color: #fff !important;
+    font-weight: 600;
+    color: #0fa3cf;
+}
+.texi-headin {
+    color: #303134;
+    font-family: proxima_novaregular;
+    font-size: 18px;
+    line-height: 1;
+}
+.taxi-text p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #575757;
+    line-height: 21px;
+}
+.g-dri {
+    display: grid;
+    margin-bottom: 15px;
 }
 .slider-img img {
     padding: 0px 0px 0px 0px;
@@ -94,17 +177,122 @@ body{
 .default-hidden{
     display: none;
 }
-#navbarNavAltMarkup .sub-menu{
-    
+#navbarNavAltMarkup .sub-menu {
     position: absolute;
-    border: 2px solid black; 
     right: 0px;
     width: 100%;
-
+    left: 0;
+    background: white;
+    z-index: 9;
+    padding: 25px;
+}
+.navbar-nav a:hover {
+    border-bottom: 3px solid red;
+        border-bottom-color: red;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+    width: 14%;
+    padding: 10px 0px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+    width: auto;
+}
+.texi-img {
+    width: 20%;
+}
+.web-img {
+    width: 25%;
+    padding: 10px 15px;
+}
+.web-span {
+    border-bottom: 1px solid #d1dbde;
+    padding: 28px 0px;
+    color: #303134;
+    font-size: 16px;
+    padding-left: 4px;
+    font-family: proxima_novaregular;
+}
+.service-para {
+    font-size: 13px;
+    color: #575757;
+    line-height: 23px;
+    margin: 10px 5px;
+}
+.col-6.web-right.border-right {
+    text-align: end;
+}
+.col-6.web-left {
+    text-align: left;
+}
+.web-right h4 {
+    padding-right: 129px;
+    text-align: right !important;
+    padding-top: 44px;
+}
+.row.cient-row {
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+}
+.texi-img.cient-img {
+    width: 92px;
+}
+.row.careers-row {
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+}
+.careers-row h4 {
+    padding-top: 20px;
+}
+.cient-row h4 {
+    padding-top: 20px;
+}
+.web-right img {
+    padding-right: 10px;
+    margin-right: 75px;
+}
+.col-6.web-left h4 {
+    padding-left: 142px;
+    padding-top: 66px;
+    text-align: left !important;
+}
+.row.out-row {
+    text-align: center;
+    margin: 0px auto;
+    width: 73%;
+}
+.out-row h4 {
+    padding-top: 20px;
+}
+.web-left img {
+    padding-left: 10px;
+    margin-left: 80px;
+}
+.on-demand-list{
+    font-size: 13px;
+    color: #575757;
+    line-height: 23px;
+    margin-top: 10px;
+    display: grid;
+}
+.col.back-color {
+    background: #f1f1f1;
+    padding: 0px 15px;
 }
 #navbarNavAltMarkup .navbar-ul li:hover .sub-menu{
     display: block;
 
+}
+.mission {
+    text-align: center !important;
+    font-size: 18px !important;
+    color: #556063;
+    text-transform: uppercase;
+    font-family: proxima_novasemibold !important;
+    letter-spacing: .4px;
+    margin-top: 20px;
 }
 .america {
     color: #696868;
@@ -145,10 +333,19 @@ body{
     color: #303134;
     margin: 0px 7px;
 }
-.ms-auto ul {
+.navbar-ul {
     text-decoration: none;
     display: inline-block;
     padding: 0px;
+}
+.content-list-solution {
+    display: grid;
+}
+.texi-heading {
+    text-align: center !important;
+    font-size: 18px !important;
+    font-family: proxima_novasemibold !important;
+    letter-spacing: .4px;
 }
 .ms-auto li {
     display: inline-block;
@@ -315,6 +512,9 @@ h5 {
 }
 .foot-a:hover {
     color: #3fc0e7;
+}
+ul {
+    list-style: none;
 }
 .row {
     --bs-gutter-x: 0px;
@@ -1492,6 +1692,7 @@ max-width: 100%;
         border-bottom: 1px solid #eee;
         padding-left: 0;
     }
+    
     .sub-footer {
         display: none;
     }

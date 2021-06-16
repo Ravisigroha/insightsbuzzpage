@@ -43,7 +43,7 @@
     <img src="img/png50.png" class="img-fluid head-logo">
     </div>
     <div id="mobile-navbar" class="default-hidden">
-      mobile menu
+      
     </div>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
@@ -52,16 +52,16 @@
         <div class="sub-menu default-hidden">
           <ul>
             <li>
-             <div class="row">
-               <div class="col about-company">
+             <div class="row com-m">
+               <div class="col about-company border-right">
                  <img src="img/about-menu-icon-1.png" class="vision">
                  <h5 class="mission">ABOUT COMPANY</h5>
                </div>
-               <div class="col about-company">
+               <div class="col about-company border-right">
                 <img src="img/about-menu-icon-2.png" class="vision">
                 <h5 class="mission">VISION & MISSION</h5>
               </div>
-              <div class="col about-company">
+              <div class="col about-company border-right">
                 <img src="img/about-menu-icon-3.png" class="vision">
                 <h5 class="mission">OUR PARTNERS</h5>
               </div>
@@ -75,25 +75,31 @@
         </div></li>
         <li><a class="nav-link" href="#">Solutions</a>
           <div class="sub-menu default-hidden">
-          <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Taxi</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">Delivery</button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Service</button>
-            <button class="tablinks" onclick="openCity(event, 'Healthcare')">Healthcare</button>
-            <button class="tablinks" onclick="openCity(event, 'Marketplace')">Marketplace</button>
-          </div>
           
+          <div class="row tab-row menu-pad">
+            <div class="col-3 tab-col">
+            <div class="tab">
+            <ul class="content-list-solution">
+            <li><button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Taxi</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'Paris')">Delivery</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'Tokyo')">Service</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'Healthcare')">Healthcare</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'Marketplace')">Marketplace</button></li>
+            </ul>
+          </div>
+          </div>
+          <div class="col-9">
           <div id="London" class="tabcontent">
-            <div class="row">
+            <div class="row menu-pad">
               <div class="col taxi-dispatch">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="img/" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/taxi-facing-right.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Taxi Dispatch</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Taxi Dispatch</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
-                    <ul>
+                    <ul class="g-dri">
                       <li>Hotel dispatch panel</li>
                       <li>Fleet Management system</li>
                       <li>Ride Sharing platform</li>
@@ -102,13 +108,13 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="img/" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/limousine-side.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Chauffeur On-Demand</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Chauffeur On-Demand</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
-                    <ul>
+                    <ul class="g-dri">
                       <li>Limo Dispatch System</li>
                       <li>Hire by Hour</li>
                       <li>Airport Pick and Drop</li>
@@ -125,15 +131,16 @@
             </div>
           </div>
           
+          
           <div id="Paris" class="tabcontent">
-            <div class="row">
+            <div class="row menu-pad ">
               <div class="col food-col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/food-delivery.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Food Delivery app</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Food Delivery app</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   </div>
                 </div>
@@ -141,11 +148,11 @@
               
                 <div class="col food-col">
                   <div class="row">
-                    <div class="col taxi-img">
-                      <img src="" class="car-texi">
+                    <div class="col-2 taxi-img">
+                      <img src="img/grocery-icon.png" class="car-texi">
                     </div>
-                    <div class="col taxi-text">
-                      <h4 class="texi-heading">Grocery Delivery</h4>
+                    <div class="col-10 taxi-text">
+                      <h4 class="texi-headin">Grocery Delivery</h4>
                       <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     </div>
                   </div>
@@ -155,11 +162,11 @@
             <div class="row">
               <div class="col food-col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/medicin-de.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Madicine Delivery</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Madicine Delivery</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   </div>
                 </div>
@@ -167,11 +174,11 @@
               
                 <div class="col food-col">
                   <div class="row">
-                    <div class="col taxi-img">
-                      <img src="" class="car-texi">
+                    <div class="col-2 taxi-img">
+                      <img src="img/movers.png" class="car-texi">
                     </div>
-                    <div class="col taxi-text">
-                      <h4 class="texi-heading">Movers and Packers</h4>
+                    <div class="col-10 taxi-text">
+                      <h4 class="texi-headin">Movers and Packers</h4>
                       <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     </div>
                   </div>
@@ -181,11 +188,11 @@
             <div class="row">
               <div class="col food-col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/assitance-truck.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Pickup And Delivery</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Pickup And Delivery</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   </div>
                 </div>
@@ -193,11 +200,11 @@
               
                 <div class="col food-col">
                   <div class="row">
-                    <div class="col taxi-img">
-                      <img src="" class="car-texi">
+                    <div class="col-2 taxi-img">
+                      <img src="img/liquor_icon.png" class="car-texi">
                     </div>
-                    <div class="col taxi-text">
-                      <h4 class="texi-heading">Liquor Delivery app</h4>
+                    <div class="col-10 taxi-text">
+                      <h4 class="texi-headin">Liquor Delivery app</h4>
                       <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     </div>
                   </div>
@@ -207,22 +214,22 @@
           </div>
           
           <div id="Tokyo" class="tabcontent">
-            <div class="row">
+            <div class="row menu-pad">
               <div class="col service-col">
                 <ul>
-                  <li><img src="#" class="car-texi"></li>
+                  <li><img src="img/makeup-icon.png" class="car-texi"></li>
                   <li><h4 class="texi-head">Beauty Service</h4></li>
                 </ul>
               </div>
               <div class="col service-col">
                 <ul>
-                  <li><img src="#" class="car-texi"></li>
+                  <li><img src="img/carwash.png" class="car-texi"></li>
                   <li><h4 class="texi-head">Car Wash</h4></li>
                 </ul>
               </div>
               <div class="col service-col">
                 <ul>
-                  <li><img src="#" class="car-texi"></li>
+                  <li><img src="img/buffet.png" class="car-texi"></li>
                   <li><h4 class="texi-head">Catering Services</h4></li>
                 </ul>
               </div>
@@ -231,19 +238,19 @@
           <div class="row">
             <div class="col service-col">
               <ul>
-                <li><img src="#" class="car-texi"></li>
+                <li><img src="img/pest-con-i.png" class="car-texi"></li>
                 <li><h4 class="texi-head">Pest Control Services</h4></li>
               </ul>
             </div>
             <div class="col service-col">
               <ul>
-                <li><img src="#" class="car-texi"></li>
+                <li><img src="img/handyman.png" class="car-texi"></li>
                 <li><h4 class="texi-head">Handyman Services</h4></li>
               </ul>
             </div>
             <div class="col service-col">
               <ul>
-                <li><img src="#" class="car-texi"></li>
+                <li><img src="img/housekeeping.png" class="car-texi"></li>
                 <li><h4 class="texi-head">Cleaning Services</h4></li>
               </ul>
             </div>
@@ -252,19 +259,19 @@
         <div class="row">
           <div class="col service-col">
             <ul>
-              <li><img src="#" class="car-texi"></li>
+              <li><img src="img/tow-truck.png" class="car-texi"></li>
               <li><h4 class="texi-head">Roadside Assistance App</h4></li>
             </ul>
           </div>
           <div class="col service-col">
             <ul>
-              <li><img src="#" class="car-texi"></li>
+              <li><img src="img/baby-stroller.png" class="car-texi"></li>
               <li><h4 class="texi-head">Babysitters Services</h4></li>
             </ul>
           </div>
           <div class="col service-col">
             <ul>
-              <li><img src="#" class="car-texi"></li>
+              <li><img src="img/cutting-lawn.png" class="car-texi"></li>
               <li><h4 class="texi-head">Lawn Mowing Service</h4></li>
             </ul>
           </div>
@@ -273,19 +280,19 @@
       <div class="row">
         <div class="col service-col">
           <ul>
-            <li><img src="#" class="car-texi"></li>
+            <li><img src="img/tutor-icon.png" class="car-texi"></li>
             <li><h4 class="texi-head">Tutors Service</h4></li>
           </ul>
         </div>
         <div class="col service-col">
           <ul>
-            <li><img src="#" class="car-texi"></li>
+            <li><img src="img/walking-with-dog.png" class="car-texi"></li>
             <li><h4 class="texi-head">Dog Walking app</h4></li>
           </ul>
         </div>
         <div class="col service-col">
           <ul>
-            <li><img src="#" class="car-texi"></li>
+            <li><img src="img/massage-icon.png" class="car-texi"></li>
             <li><h4 class="texi-head">Massage Service</h4></li>
           </ul>
         </div>
@@ -295,25 +302,25 @@
         
         
           <div id="Healthcare" class="tabcontent">
-            <div class="row">
+            <div class="row menu-pad hel-p">
               <div class="col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/medicin-de.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Medicine Delivery</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Medicine Delivery</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   </div>
                 </div>
               </div>
                 <div class="col">
                   <div class="row">
-                    <div class="col taxi-img">
-                      <img src="" class="car-texi">
+                    <div class="col-2 taxi-img">
+                      <img src="img/personal-trainer.png" class="car-texi">
                     </div>
-                    <div class="col taxi-text">
-                      <h4 class="texi-heading">Personal Trainer</h4>
+                    <div class="col-10 taxi-text">
+                      <h4 class="texi-headin">Personal Trainer</h4>
                       <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     </div>
                   </div>
@@ -324,22 +331,22 @@
             <div class="row">
               <div class="col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/healthcare-consultation.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Healthcare Consultation</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Healthcare Consultation</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   </div>
                 </div>
                 </div>
                 <div class="col">
                   <div class="row">
-                    <div class="col taxi-img">
-                      <img src="" class="car-texi">
+                    <div class="col-2 taxi-img">
+                      <img src="img/emergency.png" class="car-texi">
                     </div>
-                    <div class="col taxi-text">
-                      <h4 class="texi-heading">On-Demand Doctor</h4>
+                    <div class="col-10 taxi-text">
+                      <h4 class="texi-headin">On-Demand Doctor</h4>
                       <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     </div>
                   </div>
@@ -350,11 +357,11 @@
             <div class="row">
               <div class="col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-1 taxi-img">
+                    <img src="img/telemedicine.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Telemedicine App</h4>
+                  <div class="col-11 prop-new taxi-text">
+                    <h4 class="texi-headin">Telemedicine App</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   </div>
                 </div>
@@ -368,14 +375,14 @@
            </div>
       
           <div id="Marketplace" class="tabcontent">
-          <div class="row">
+          <div class="row menu-pad">
             <div class="col">
               <div class="row">
-                <div class="col taxi-img">
-                  <img src="" class="car-texi">
+                <div class="col-2 taxi-img">
+                  <img src="img/rental-market.png" class="car-texi">
                 </div>
-                <div class="col taxi-text">
-                  <h4 class="texi-heading">Rental Marketplace</h4>
+                <div class="col-10 taxi-text">
+                  <h4 class="texi-headin">Rental Marketplace</h4>
                   <p>Help individuals and companies to rent out goods and properties</p>
                   <span class="rental">Related examples:</span>
                   <div class="rental-btn">
@@ -386,11 +393,11 @@
             </div>
               <div class="col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/personal-trainer.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">Personal Trainer</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">Personal Trainer</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     <span class="rental">Related examples:</span>
                   <div class="rental-btn">
@@ -408,11 +415,11 @@
           <div class="row">
             <div class="col">
               <div class="row">
-                <div class="col taxi-img">
-                  <img src="" class="car-texi">
+                <div class="col-2 taxi-img">
+                  <img src="img/healthcare-consultation.png" class="car-texi">
                 </div>
-                <div class="col taxi-text">
-                  <h4 class="texi-heading">Healthcare Consultation</h4>
+                <div class="col-10 taxi-text">
+                  <h4 class="texi-headin">Healthcare Consultation</h4>
                   <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                   <span class="rental">Related examples:</span>
                   <div class="rental-btn">
@@ -426,11 +433,11 @@
               </div>
               <div class="col">
                 <div class="row">
-                  <div class="col taxi-img">
-                    <img src="" class="car-texi">
+                  <div class="col-2 taxi-img">
+                    <img src="img/emergency.png" class="car-texi">
                   </div>
-                  <div class="col taxi-text">
-                    <h4 class="texi-heading">On-Demand Doctor</h4>
+                  <div class="col-10 taxi-text">
+                    <h4 class="texi-headin">On-Demand Doctor</h4>
                     <p>A smarter solution for smart travellers. Allowing easy booking with sophisticated taxi app.</p>
                     <span class="rental">Platform for:</span>
                   <div class="rental-btn">
@@ -445,46 +452,120 @@
               </div>
               </div>
             </div>
+            </div>
+            </div>
         </li>
         <li><a class="nav-link" href="#">Services</a>
           <div class="sub-menu default-hidden">
-        <div class="row">
+        <div class="row menu-pad">
           <div class="col">
             <span class="web-span">
-                <img src="#" class="web-img">
+                <img src="img/web-app-dev.png" class="web-img">
                 Web app development
             </span> 
-            <p class="service-para">Get unique web solution based on your business requirments. Our experts focused on collaborative approach understands customer need to deliver the quality of work</p>
+            <p class="service-para">Get unique web solution based on your business requirment. Our experts focused on collaborative approach understands customer needs to deliver the quailty of work.</p>
           </div>
           <div class="col">
             <span class="web-span">
-                <img src="#" class="web-img">
+                <img src="img/exprieance.png" class="web-img">
+                Mobile app development
+            </span> 
+            <p class="service-para">We create impactful digital experiences driven by insight,strategy,design and technology to help customers succeed at the speed of innovation.</p>
+          </div>
+          <div class="col">
+            <span class="web-span">
+                <img src="img/chain.png" class="web-img">
+                Blockchain app development
+            </span> 
+            <p class="service-para">Our expert can consult you on your Blochchain needs and help to avoid froud and double-spending. Right from implementing and auditing smart contracts we can do it all.</p>
+          </div>
+          <div class="col back-color">
+            <span class="web-span">
+                <img src="img/industires.png" class="web-img">
                 Web app development
             </span> 
-            <p class="service-para">Get unique web solution based on your business requirments. Our experts focused on collaborative approach understands customer need to deliver the quality of work</p>
-          </div>
-          <div class="col">
-            <span class="web-span">
-                <img src="" class="web-img">
-                <h4 class="texi-heading">Web app development</h4>
-            </span> 
-            <p class="service-para">Get unique web solution based on your business requirments. Our experts focused on collaborative approach understands customer need to deliver the quality of work</p>
-          </div>
-          <div class="col">
-            <span class="web-span">
-                <img src="" class="web-img">
-                <h4 class="texi-heading">Web app development</h4>
-            </span> 
-            <p class="service-para">Get unique web solution based on your business requirments. Our experts focused on collaborative approach understands customer need to deliver the quality of work</p>
+            <ul class="on-demand-list">
+              <li>On-Demand </li>
+              <li>Ecommerce</li>
+              <li>Real Estate</li>
+              <li>Healthcare</li>
+              <li>Education</li>
+              <li>Fintech</li>
+            </ul>
           </div>
         </div>
         </div>
         </li>
-        <li><a class="nav-link" href="#">Portfoliyo</a></li>
-        <li><a class="nav-link" href="#">Clients</a></li>
-        <li><a class="nav-link" href="#">Outsourcing</a></li>
+        <li><a class="nav-link" href="#">Portfoliyo</a>
+          <div class="sub-menu default-hidden">
+            <div class="row menu-pad">
+              <div class="col-6 web-right border-right">
+                <img src="img/portfolio-menu-icon-3.png" class="texi-img">
+                <h4 class="texi-heading">MOBILE</h4>
+
+              </div>
+              <div class="col-6 web-left">
+                <img src="img/portfolio-menu-icon-1.png" class="texi-img">
+                <h4 class="texi-heading">WEB</h4>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a class="nav-link" href="#">Clients</a>
+          <div class="sub-menu default-hidden">
+            <div class="row cient-row menu-pad">
+              <div class="col border-right">
+                <img src="img/testimonials-menu-icon-1.png" class="texi-img cient-img">
+                <h4 class="texi-heading">TESTIMONIALS</h4>
+              </div>
+              <div class="col border-right">
+                <img src="img/testimonials-menu-icon-2.png" class="texi-img">
+                <h4 class="texi-heading">CLIENTS</h4>
+              </div>
+              <div class="col ">
+                <img src="img/testimonials-menu-icon-3.png" class="texi-img ">
+                <h4 class="texi-heading">CASE STUDIES</h4>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a class="nav-link" href="#">Outsourcing</a>
+          <div class="sub-menu default-hidden">
+            <div class="row out-row menu-pad">
+              <div class="col border-right">
+                <img src="img/outsourcing-menu-icon-1.png" class="texi-img">
+                <h4 class="texi-heading">QUALITY POLICY</h4>
+              </div>
+              <div class="col border-right">
+                <img src="img/outsourcing-menu-icon-2.png" class="texi-img">
+                <h4 class="texi-heading">OUR PROCESS</h4>
+              </div>
+              <div class="col border-right">
+                <img src="img/outsourcing-menu-icon-3.png" class="texi-img ">
+                <h4 class="texi-heading">WHY OUTSOURCE</h4>
+              </div>
+              <div class="col">
+                <img src="img/outsourcing-menu-icon-4.png" class="texi-img ">
+                <h4 class="texi-heading">ENGAGEMENT MODEL</h4>
+              </div>
+            </div>
+          </div>
+        </li>
         <li><a class="nav-link" href="#">Blog</a></li>
-        <li><a class="nav-link" href="#">Career</a></li>
+        <li><a class="nav-link" href="#">Career</a>
+          <div class="sub-menu default-hidden">
+            <div class="row careers-row menu-pad">
+              <div class="col border-right">
+                <img src="img/carrers-menu-icon-1.png" class="texi-img">
+                <h4 class="texi-heading">JOBS</h4>
+              </div>
+              <div class="col">
+                <img src="img/carrers-menu-icon-2.png" class="texi-img">
+                <h4 class="texi-heading">LIFE@INSIGHTSBUZZ</h4>
+              </div>
+              </div>
+          </div>
+        </li>
         <li><a class="nav-link contact-us" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
 </svg>Contact Us</a></li>
