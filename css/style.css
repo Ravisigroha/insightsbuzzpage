@@ -1154,6 +1154,59 @@ button.bri-btn {
         left: 0;
         right: 0;
     }
+    #accordionFlushExample-about-ex .bg-light-1 {
+        background-color: white;
+    }
+    .on-demand-list-1 {
+        background-color: lavender;
+    }
+    #accordionFlushExample-about-ex .accordion-button:not(.collapsed)::after {
+
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        transform: rotate(180deg);
+        display: none;
+    }
+    .accordion-button.bg-light-1.collapsed::after {
+        display: none;
+    }
+    .bi.bi-plus-square {
+        margin-left: auto;
+    }
+    .accordion-item {
+        margin-bottom: -1px;
+        border: 0px solid rgba(0,0,0,.125);
+            border-top-color: rgba(0, 0, 0, 0.125);
+            border-top-style: solid;
+            border-top-width: 0px;
+            border-right-color: rgba(0, 0, 0, 0.125);
+            border-right-style: solid;
+            border-right-width: 0px;
+            border-left-color: rgba(0, 0, 0, 0.125);
+            border-left-style: solid;
+            border-left-width: 0px;
+    }
+    .for-col {
+        background-color: transparent;
+        color: black;
+        font-family: 'proxima_novaregular' !important;
+        font-size: 14px;
+    }
+    .accordion-button.collapsed.bg-light-1 {
+        color: black !important;
+    }
+    #accordionFlushExample-about-ex .accordion-button {
+        color: blue;
+    }
+    .bg-light-1:hover:active {
+        color: blue !important;
+    }
+    .bg-light-1:hover {
+        color: blue !important;
+    }
+    .new-taxi {
+        width: 15%;
+        padding: 5px 5px;
+    }
     .accordion-item:last-of-type .accordion-button.collapsed {
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
