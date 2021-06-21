@@ -186,7 +186,7 @@ body{
     z-index: 9;
     padding: 25px;
 }
-.navbar-nav a:hover {
+?.navbar-nav a:hover {
     border-bottom: 3px solid red;
         border-bottom-color: red;
         border-bottom-style: solid;
@@ -677,6 +677,7 @@ h6 {
 }
 #mobile-navbar.show {
     display: block;
+    width: 100%;
 }
 #carouselExampleIndicators .carousel-indicators .active{
     background-color: #3fc0e7 !important;
@@ -1153,6 +1154,23 @@ button.bri-btn {
         margin: 0 auto;
         left: 0;
         right: 0;
+    }
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: #86b7fe;
+        outline: 0;
+    
+    }
+    .accordion-button.bg-light-1.collapsed{
+        background-image: url(../img/plus-square.svg)!important;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .accordion-button.bg-light-1{
+        background-image: url(../img/dash-square.svg)!important;
+        background-repeat: no-repeat;
+        background-position: right;
+
     }
     #accordionFlushExample-about-ex .bg-light-1 {
         background-color: white;
