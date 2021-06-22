@@ -1155,6 +1155,14 @@ button.bri-btn {
         left: 0;
         right: 0;
     }
+    .sub-footer {
+        display: block;
+        background-color: #162a33;
+        float: none;
+        padding-top: 0px;
+        width: 100%;
+        border-bottom: 4px solid #0f2028;
+    }
     .accordion-button:focus {
         z-index: 3;
         border-color: #86b7fe;
@@ -1374,16 +1382,16 @@ max-width: 100%;
     }
     .btn.btn-sec-3 {
         font-size: 12px;
-        height: 60px;
-        margin-top: 45px;
+        height: 50px;
+        margin-top: 18px;
         max-width: 100%;
-        padding: 17px 25px 17px 60px;
+        padding: 17px 25px 17px 69px;
         border: 1px solid #3fc0e7;
         background: #3fc0e7;
         color: #fff !important;
         border-radius: 50px;
-        width: 400px;
-        margin-bottom: 40px;
+        width: 292px;
+        margin-bottom: 25px;
     }
     .sec-3-container span {
         background: url(../img/index.png) no-repeat #3fc0e7;
@@ -1466,7 +1474,11 @@ max-width: 100%;
         border-radius: 50px;
         background-color: #3fc0e7;
         color: white;
-        margin: 30px;
+        margin: 5px;
+    }
+    .row.sec-3-row {
+        width: 100%;
+        margin-top: 5px;
     }
     .sec-8-container {
         margin: 0px auto;
@@ -1624,6 +1636,11 @@ max-width: 100%;
         flex: 0 0 auto;
         width: 16.333333%;
     }
+    .input2 {
+        text-align: left;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
     img.zapp-logo {
         width: 90%;
         padding: 0px;
@@ -1739,11 +1756,13 @@ max-width: 100%;
     }
     .col-sm-6 {
         flex: 0 0 auto;
-        width: 90%;
+        width: 100%;
+        padding: 0px 15px;
     }
     .col-md-6 {
         flex: 0 0 auto;
-        width: 90%;
+        width: 100%;
+        padding: 0px 15px;
     }
     .top-footer {
         background-color: #162a33;
@@ -1752,6 +1771,11 @@ max-width: 100%;
         width: 100%;
         border-bottom: 4px solid #0f2028;
         display: none;
+    }
+    .img-fluid.sec-8-img.to-change {
+        width: 14%!important;
+        margin-top: 25px!important;
+        margin-bottom: 15px!important;
     }
 
 
@@ -2028,16 +2052,18 @@ max-width: 100%;
         padding-top: 50px;
         margin-bottom: 0px;
     }
+    
     .carousel-control-next, .carousel-control-prev{
         width: 0%;
     }
     button.bri-btn {
-        margin: 10px 0px;
+        margin-top: 8px;
         font-size: 15px;
         height: auto;
-        padding: 14px 0px;
+        padding: 10px 0px;
         border-radius: 50px;
         width: 200px;
+        margin-bottom: 0px;
     }
     .sub-header ul {
         text-align: end;
