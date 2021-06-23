@@ -141,17 +141,21 @@ body{
 }
 .video-play-btn {
     position: absolute;
-    left: 351px;
-    right: 0;
-    margin: 0px;
-    width: 91px;
-    height: 89px;
-    transform: translate(0, 156%);
+    left: auto;
+    right: auto;
+    width: auto;
+    height: auto;
     transition: all .5s ease 0s;
+    z-index: 16;
+    top: auto;
+    margin: 102px -42px;
     fill: rgba(255, 255, 255, .7);
 }
-.home-video {
-    margin-bottom: 45px;
+.vdo-pic {
+    margin-bottom: 25px;
+    background-image: url(../img/video-poster.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 .contact span{
     float: right;
@@ -251,7 +255,8 @@ body{
 }
 .web-right img {
     padding-right: 10px;
-    margin-right: 75px;
+    margin-right: 106px;
+    width: 9%;
 }
 .col-6.web-left h4 {
     padding-left: 142px;
@@ -266,9 +271,14 @@ body{
 .out-row h4 {
     padding-top: 20px;
 }
+.row.menu-wid {
+    width: 76%;
+    margin: 0px auto;
+}
 .web-left img {
     padding-left: 10px;
-    margin-left: 80px;
+    margin-left: 113px;
+    width: 9%!important;
 }
 .on-demand-list{
     font-size: 13px;
@@ -804,18 +814,20 @@ h1 {
 }
 .row.sec-3-row {
     width: 100%;
-    margin-top: 38px;
+    margin: 30px auto;
+    padding: 0px;
+    text-align: center;
 }
 .col-3.start-up {
     background-color: #3fc0e7;
     border-radius: 10px;
     display: inline-block;
-    height: 376px;
+    height: auto;
     margin-right: 10px;
-    max-width: 275px;
-    transition: all 150ms linear 0s;
+    max-width: 100%;
+    
     width: 23.8%;
-    position: relative;
+    position: unset;
     padding: 0px 10px;
 }
 .img-fluid.rocket-img {
@@ -846,36 +858,36 @@ h3 {
 .col-3.mobile {
     border-radius: 10px;
     display: inline-block;
-    height: 376px;
+    height: auto;
     margin-right: 10px;
-    max-width: 275px;
-    transition: all 150ms linear 0s;
+    max-width: 100%;
+    
     width: 23.8%;
-    position: relative;
+    position: unset;
     background-color: #60923b;
     padding: 0px 4px;
 }
 .col-3.e-com {
     border-radius: 10px;
     display: inline-block;
-    height: 376px;
+    height: auto;
     margin-right: 10px;
-    max-width: 275px;
-    transition: all 150ms linear 0s;
+    max-width: 100%;
+    
     width: 23.8%;
-    position: relative;
+    position: unset;
     background-color: #f9be4a;
     padding: 0px 4px;
 }
 .col-3.blockchain {
     border-radius: 10px;
     display: inline-block;
-    height: 376px;
+    height: auto;
     margin-right: 10px;
-    max-width: 275px;
-    transition: all 150ms linear 0s;
+    max-width: 100%;
+    
     width: 23.8%;
-    position: relative;
+    position: unset;
     background-color: #E92B26;
     padding: 0px 4px;
 }
@@ -1035,7 +1047,7 @@ a.nav-link.contact-us {
     border-radius: 50px;
     height: 40px;
     top: 0px;
-    width: 129px;
+    width: auto;
     line-height: 22px;
     background-color: transparent;
     opacity: 1;
@@ -1084,7 +1096,7 @@ img.zapp-logo {
     padding-top: 36px;
     padding-left: 10px;
 }
-.slider-img img {
+.short-img {
     padding: 40px 0px 0px 60px;
     margin-top: 25px;
     height: auto;
@@ -1130,7 +1142,7 @@ img.slider-big-img {
     width: 100%;
 }
 button.bri-btn {
-    margin-top: 8px;
+    margin-top: 65px;
     font-size: 15px;
     height: auto;
     padding: 17px 0px;
@@ -2074,7 +2086,7 @@ max-width: 100%;
         border-radius: 50px;
         height: 36px;
         top: 0px;
-        width: 109px;
+        width: auto;
         line-height: 17px;
         background-color: transparent;
         opacity: 1;
