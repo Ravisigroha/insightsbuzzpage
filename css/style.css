@@ -48,7 +48,9 @@ body{
     margin: 10px 0px;
 }
 .row.com-m {
-    margin: 0px 80px;
+    margin: 0px auto;
+    position: absolute;
+    background-color: white;
 }
 .about {
     color: white;
@@ -257,6 +259,10 @@ body{
     padding-right: 10px;
     margin-right: 106px;
     width: 9%;
+}
+.big-img-right {
+    width: 90%;
+    float: inline-end;
 }
 .col-6.web-left h4 {
     padding-left: 142px;
