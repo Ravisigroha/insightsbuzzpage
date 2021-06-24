@@ -52,6 +52,20 @@ body{
     position: absolute;
     background-color: white;
 }
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 48%;
+    padding-left: 30px;
+}
+.section-3 h2 {
+    color: #3a3939;
+    font-size: 28px;
+    line-height: 44px;
+    margin: 0px auto;
+    font-family: proxima_novalight;
+    font-weight: 500;
+    width: 44%;
+}
 .about {
     color: white;
 }
@@ -81,7 +95,7 @@ body{
     padding-top: 30px;
 }
 #Paris{
-    margin-top: 77px;
+    margin-top: 10px;
 }
 #Healthcare{
     margin-top: 77px;
@@ -140,6 +154,7 @@ body{
 .col-sm-6 {
     flex: 0 0 auto;
     width: 48%;
+    padding-left: 30px;
 }
 .video-play-btn {
     position: absolute;
@@ -192,17 +207,15 @@ body{
     z-index: 9;
     padding: 25px;
 }
-?.navbar-nav a:hover {
-    border-bottom: 3px solid red;
-        border-bottom-color: red;
-        border-bottom-style: solid;
-        border-bottom-width: 3px;
+.navbar-nav a:hover {
+    
     width: 14%;
     padding: 10px 0px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: red;
     width: auto;
+    box-shadow: 0px 3px #0fa3cf;
 }
 .texi-img {
     width: 20%;
@@ -309,6 +322,12 @@ body{
     font-family: proxima_novasemibold !important;
     letter-spacing: .4px;
     margin-top: 20px;
+}
+.col.service-col {
+    margin: 20px;
+}
+.col.food-col {
+    margin: 20px;
 }
 .america {
     color: #696868;
@@ -482,14 +501,18 @@ h5 {
 }
 .new-h3::before {
     color: #3fc0e7;
-    content: "ïƒ™";
+    content: "";
     font-family: fontawesome;
     font-size: 21px;
     left: auto;
     position: absolute;
-    transform: translateY(12%);
-    margin-left: -12px;
-
+    transform: translateY(34%);
+    margin-left: -17px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 15px solid;
+    border-bottom: 8px solid transparent;
 }
 .row.f-row img {
     margin-right: 10px;
@@ -801,14 +824,17 @@ h1 {
     width: 76%;
     text-align: center;
 }
+strong {
+    color: #3fc0e7;
+}
 .section-3 h2 {
-    color: #757575;
-    font-size: 42px;
+    color: #3a3939;
+    font-size: 28px;
     line-height: 44px;
     margin: 0px auto;
     font-family: proxima_novalight;
     font-weight: 500;
-    width: 68%;
+    width: 44%;
 }
 .display-h1 {
     color: #6a7071;
@@ -946,7 +972,7 @@ h3 {
 .sec-5-container h4 {
     color: #3a3939;
     font-family: proxima_novasemibold;
-    font-size: 18px;
+    font-size: 28px;
     line-height: normal;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -1117,7 +1143,8 @@ img.zapp-logo {
     margin-bottom: 0px !important;
 }
 .sec-5-container-2 {
-    margin-top: 30px;
+    margin: 30px auto;
+    width: 90%;
 }
 .col.slider-col {
     padding-left: 40px;
@@ -1148,7 +1175,7 @@ img.slider-big-img {
     width: 100%;
 }
 button.bri-btn {
-    margin-top: 65px;
+    margin-top: 15px;
     font-size: 15px;
     height: auto;
     padding: 17px 0px;
@@ -1163,6 +1190,11 @@ button.bri-btn {
 }
 .dropdown {
     display: none;
+}
+.img-mr img {
+    float: inline-end;
+    padding-right: 0px;
+    margin-right: 90px;
 }
  @media only screen and (max-width: 768px) {
     .sec1-container{
@@ -1441,7 +1473,7 @@ max-width: 100%;
     .section-6 h4 {
         color: #3a3939;
         font-family: proxima_novasemibold;
-        font-size: 11px;
+        font-size: 28px;
         line-height: normal;
         margin-bottom: 0;
         text-transform: uppercase;
@@ -1930,13 +1962,11 @@ max-width: 100%;
     }
     p.slider-p-h3 {
         float: left;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 27px;
         width: 100%;
-        color: white;
-        padding-left: 0px;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
+        color: #fff;
+        padding: 20px 0px;
     }
     h2.slider-h2-h3 {
         float: none;
