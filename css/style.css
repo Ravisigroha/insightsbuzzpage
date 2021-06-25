@@ -201,21 +201,21 @@ body{
 #navbarNavAltMarkup .sub-menu {
     position: absolute;
     right: 0px;
-    width: 100%;
+    width: 97%;
     left: 0;
     background: white;
     z-index: 9;
-    padding: 25px;
 }
 .navbar-nav a:hover {
     
-    width: 14%;
-    padding: 10px 0px;
+    width: auto;
+    
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: red;
-    width: auto;
-    box-shadow: 0px 3px #0fa3cf;
+    color: blue;
+    border-bottom-color: blue;
+}
+    
 }
 .texi-img {
     width: 20%;
@@ -349,6 +349,7 @@ body{
     font-family: Montserrat, sans-serif;
     font-size: 15px;
     font-weight: 400;
+    border-bottom: 2px solid transparent;
 }
 .app-logo img {
     width: 25%;
@@ -372,6 +373,7 @@ body{
     text-decoration: none;
     display: inline-block;
     padding: 0px;
+    margin-bottom: 0px;
 }
 .content-list-solution {
     display: grid;
@@ -606,10 +608,18 @@ h6 {
     width: 80%;
     padding: 50px 0px;
 }
+.get-in h4 {
+    font-size: 28px;
+}
+.top-footer h2 {
+    font-size: 18px;
+    color: #ddd;
+    font-family: proxima_novasemibold;
+}
 .section-6 h4 {
     color: #3a3939;
     font-family: proxima_novasemibold;
-    font-size: 18px;
+    font-size: 28px;
     line-height: normal;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -1128,6 +1138,15 @@ img.zapp-logo {
     padding-top: 36px;
     padding-left: 10px;
 }
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: 0px;
+}
 .short-img {
     padding: 40px 0px 0px 60px;
     margin-top: 25px;
@@ -1155,15 +1174,17 @@ h2.slider-h2-h3 {
     line-height: 71px;
     width: 100%;
     margin-top: 35px;
-    color: white;
+    font-family: proxima_novalight;
+    text-align: left;
+    color: #fff;
 }
 p.slider-p-h3 {
     float: left;
-    font-size: 20px;
     line-height: 27px;
     width: 100%;
-    color: white;
     padding: 20px 0px;
+    color: #fff;
+    font-size: 18px;
 }
 img.slider-big-img {
     padding: 40px 0px 0px 60px;
@@ -1181,6 +1202,8 @@ button.bri-btn {
     padding: 17px 0px;
     border-radius: 50px;
     width: 200px;
+    box-shadow: 0 0 1px transparent;
+    border: none;
 }
 .mdline {
     border-right: 2px solid white;
@@ -1195,6 +1218,28 @@ button.bri-btn {
     float: inline-end;
     padding-right: 0px;
     margin-right: 90px;
+}
+.small-img {
+    padding: 0px;
+}
+.small-img li {
+    display: inline-block;
+}
+.small-img img {
+    width: 84%;
+    padding: 0px 10px;
+}
+.move-right {
+    width: 49%;
+    position: relative;
+    left: auto;
+    right: -21px;
+    margin-right: 0px !important;
+    padding: 0px;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    height: auto;
 }
  @media only screen and (max-width: 768px) {
     .sec1-container{
