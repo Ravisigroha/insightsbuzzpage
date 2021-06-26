@@ -124,6 +124,10 @@ body{
     font-weight: 600;
     color: #0fa3cf;
 }
+.bi.bi-eye {
+    margin-bottom: 3px;
+    margin-left: 12px;
+}
 .texi-headin {
     color: #303134;
     font-family: proxima_novaregular;
@@ -136,9 +140,17 @@ body{
     color: #575757;
     line-height: 21px;
 }
+.g-dri li {
+    padding: 0px 15px;
+}
+.col.about-company.border-right:hover {
+    background: #fafafa;
+}
 .g-dri {
-    display: grid;
-    margin-bottom: 15px;
+    display: inline-block;
+    width: 75%;
+    margin: 14px 0px;
+    padding: 0px;
 }
 .slider-img img {
     padding: 0px 0px 0px 0px;
@@ -278,8 +290,8 @@ body{
     float: inline-end;
 }
 .col-6.web-left h4 {
-    padding-left: 142px;
-    padding-top: 66px;
+    padding-left: 137px;
+    padding-top: 56px;
     text-align: left !important;
 }
 .row.out-row {
