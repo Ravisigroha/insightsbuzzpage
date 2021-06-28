@@ -70,9 +70,17 @@ body{
     color: white;
 }
 .car-texi {
-    width: 52px;
+    width: 70px;
     margin-bottom: 0px;
-    padding-left: 19px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+.taxi-text p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #575757;
+    line-height: 21px;
+    width: max-content;
 }
 .texi-head {
     color: #303134;
@@ -92,7 +100,7 @@ body{
     padding: 5px 208px 5px 25px;
 }
 .menu-pad{
-    padding-top: 30px;
+    padding-top: 0px;
 }
 #Paris{
     margin-top: 10px;
@@ -134,14 +142,19 @@ body{
     font-size: 18px;
     line-height: 1;
 }
-.taxi-text p {
-    margin-bottom: 15px;
-    font-size: 15px;
-    color: #575757;
-    line-height: 21px;
-}
+
 .g-dri li {
-    padding: 0px 15px;
+    padding: 0px;
+    float: left;
+    font-size: 15px;
+    margin-bottom: 8px !important;
+    list-style: disc;
+    color: #333;
+    margin: 0px 40px 0px 0px;
+        margin-bottom: 0px;
+}
+.col.taxi-dispatch {
+    margin-top: 30px;
 }
 .col.about-company.border-right:hover {
     background: #fafafa;
@@ -213,7 +226,7 @@ body{
 #navbarNavAltMarkup .sub-menu {
     position: absolute;
     right: 0px;
-    width: 97%;
+    width: 100%;
     left: 0;
     background: white;
     z-index: 9;
@@ -286,7 +299,7 @@ body{
     width: 9%;
 }
 .big-img-right {
-    width: 90%;
+    width: 80%;
     float: inline-end;
 }
 .col-6.web-left h4 {
@@ -339,7 +352,7 @@ body{
     margin: 20px;
 }
 .col.food-col {
-    margin: 20px;
+    margin: 32px 0px 3px 17px;
 }
 .america {
     color: #696868;
