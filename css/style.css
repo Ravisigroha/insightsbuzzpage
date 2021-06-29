@@ -313,7 +313,7 @@ body{
     width: 9%;
 }
 .big-img-right {
-    width: 80%;
+    width: 550px;
     float: inline-end;
 }
 .col-6.web-left h4 {
@@ -617,8 +617,12 @@ ul {
 }
 .sec-8-container {
     margin: 0px auto;
-    width: 60%;
+    width: 1170px;
     text-align: center;
+    padding: 0px 40px;
+}
+.container.f-container {
+    width: 1170px !important;
 }
 .row.sec-8-row {
     padding: 40px 0px;
@@ -651,7 +655,7 @@ h6 {
 .sec-7-container {
     margin: 0px auto;
     text-align: center;
-    width: 80%;
+    width: 1170px;
     padding: 50px 0px;
 }
 .get-in h4 {
@@ -803,6 +807,7 @@ h6 {
     line-height: 27px;
     margin-top: 0;
     width: 80%;
+    margin-left: 32px;
 }
 .sec1-container{
     background-image: url(../img/banner.jpg);
@@ -813,9 +818,9 @@ height: 500px;
 position: relative;
 width: 100%;
 }
-.section-1{
+.section-1 {
     margin: 0px auto;
-    width: 80%;
+    width: 1170px;
 }
 h1 {
     font-size: 46px;
@@ -838,7 +843,7 @@ h1 {
 .btn.btn-sec-1 {
     font-size: 18px;
     height: 60px;
-    margin-top: 15px;
+    margin-top: 0px;
     max-width: 100%;
     padding: 17px 25px 17px 60px;
     border: 1px solid #3fc0e7;
@@ -870,14 +875,14 @@ h1 {
 }
 .sec-2 {
     margin: 0px auto;
-    width: 80%;
+    width: 1170px;
 }
 .sec-2 img {
     width: 75%;
 }
 .sec-3-container {
     margin: 0px auto;
-    width: 76%;
+    width: 1170px;
     text-align: center;
 }
 strong {
@@ -1010,7 +1015,7 @@ h3 {
 .sec-4-container {
     margin: 0px auto;
     text-align: center;
-    width: 80%;
+    width: 1170px;
 }
 .sec-4-p-1 {
     color: #6a7071;
@@ -1061,7 +1066,7 @@ h3 {
     font-size: 20px;
     letter-spacing: 1px;
     margin: 0;
-    padding-left: 24px;
+    padding-left: 0px;
     text-transform: capitalize;
     vertical-align: middle;
     width: 45%;
@@ -1209,7 +1214,7 @@ img.zapp-logo {
 }
 .sec-5-container-2 {
     margin: 30px auto;
-    width: 90%;
+    width: 1500px;
 }
 .col.slider-col {
     padding-left: 40px;
@@ -1287,6 +1292,11 @@ button.bri-btn {
     z-index: 1;
     height: auto;
 }
+.section-6 {
+    margin: 0px auto;
+    width: 1170px;
+    text-align: center;
+}
  @media only screen and (max-width: 768px) {
     .sec1-container{
         text-align: center;
@@ -1295,6 +1305,38 @@ button.bri-btn {
         margin: 0 auto;
         left: 0;
         right: 0;
+    }
+    .sec-3-container {
+        margin: 0px auto;
+        width: auto;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .sec-4-container {
+        margin: 0px auto;
+        text-align: center;
+        width: auto;
+        padding: 0px 20px;
+    }
+    .sec-5-container-2 {
+        margin: 30px auto;
+        width: auto;
+        padding: 0px 20px;
+    }
+    .section-6 {
+        margin: 0px auto;
+        width: auto;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .sec-2 {
+        margin: 0px auto;
+        width: auto;
+        padding: 0px 15px;
+    }
+    .section-1 {
+        margin: 0px auto;
+        width: auto;
     }
     .sub-footer {
         display: block;
@@ -1564,7 +1606,7 @@ max-width: 100%;
     .section-6 h4 {
         color: #3a3939;
         font-family: proxima_novasemibold;
-        font-size: 28px;
+        font-size: 18px;
         line-height: normal;
         margin-bottom: 0;
         text-transform: uppercase;
