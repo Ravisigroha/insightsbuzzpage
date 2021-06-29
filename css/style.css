@@ -69,18 +69,28 @@ body{
 .about {
     color: white;
 }
+.service-col img {
+    width: 40px !important;
+    margin-right: 0px !important;
+    float: right;
+}
+.row.mt-6 {
+    margin-top: 30px !important;
+}
 .car-texi {
-    width: 70px;
+    width: 47px;
     margin-bottom: 0px;
     padding-left: 0px;
     margin-left: 20px;
+    float: right;
+    margin-right: 20px;
 }
 .taxi-text p {
     margin-bottom: 15px;
     font-size: 15px;
     color: #575757;
     line-height: 21px;
-    width: max-content;
+    width: auto;
 }
 .texi-head {
     color: #303134;
@@ -106,7 +116,10 @@ body{
     margin-top: 10px;
 }
 #Healthcare{
-    margin-top: 77px;
+    margin-top: 20px;
+}
+.smarter-p {
+    width: 45% !important;
 }
 .airbnb-btn {
     background-color: transparent;
@@ -161,7 +174,7 @@ body{
 }
 .g-dri {
     display: inline-block;
-    width: 75%;
+    width: 80%;
     margin: 14px 0px;
     padding: 0px;
 }
@@ -246,15 +259,16 @@ body{
     width: 20%;
 }
 .web-img {
-    width: 25%;
-    padding: 10px 15px;
+    width: 15%;
+    padding: 0px 0px;
 }
 .web-span {
     border-bottom: 1px solid #d1dbde;
-    padding: 28px 0px;
+    padding: 22px 0px;
+        padding-left: 0px;
     color: #303134;
     font-size: 16px;
-    padding-left: 4px;
+    padding-left: 0px;
     font-family: proxima_novaregular;
 }
 .service-para {
@@ -334,6 +348,10 @@ body{
 .col.back-color {
     background: #f1f1f1;
     padding: 0px 15px;
+    margin: 20px auto;
+}
+.texi-head.tok-head {
+    padding: 20px 0px 0px 15px !important;
 }
 #navbarNavAltMarkup .navbar-ul li:hover .sub-menu{
     display: block;
@@ -349,7 +367,7 @@ body{
     margin-top: 20px;
 }
 .col.service-col {
-    margin: 20px;
+    margin-top: 20px;
 }
 .col.food-col {
     margin: 32px 0px 3px 17px;
@@ -417,6 +435,9 @@ body{
     height: 19px;
     width: 24px;
     margin: 0px 15px 3px 0px;
+}
+.col.back-col {
+    margin: 20px 5px;
 }
 .case-border{
     background-color: transparent;
