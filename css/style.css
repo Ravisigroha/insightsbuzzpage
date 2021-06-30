@@ -23,9 +23,322 @@ body{
     font-family: proxima_novasemibold;
     src: url(../fonts/FontsFree-Net-Proxima-Nova-Sbold.otf);
 }
+
+.container-fluid {
+    padding: 0px;
+}
 .container {
-    max-width: 95%;
+    width: 1170px;
     margin: 0px auto;
+}
+.about-banner-1 {
+    background-color: #38b8df;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 460px;
+    padding: 48px 0;
+    text-align: center;
+    width: 100%;
+    background-image: url('../img/about-banner.jpg');
+}
+.container.about-container {
+    max-width: 830px;
+}
+.one-stop h1 {
+    color: #fff;
+    float: left;
+    font-family: proxima_novabold;
+    font-size: 44px;
+    margin: 0 0 10px;
+    width: 100%;
+}
+.an-idea {
+    color: #fff;
+    font-size: 21px;
+    font-family: proxima_novalight;
+    width: 100%;
+    float: left;
+    margin: 0 0 10px;
+}
+.about-us-1 {
+    background: #f8f9fb;
+    float: left;
+    padding: 60px 0;
+    width: 100%;
+    text-align: center;
+}
+.about-col-us h2 {
+    float: left;
+    font-family: proxima_novasemibold;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.web-and {
+    margin: 10px 0;
+    font-size: 17px;
+    color: #6a7071;
+    text-transform: none;
+    font-family: proxima_novalight;
+    width: 100%;
+}
+.red-line {
+    line-height: 1;
+    margin: 10px 0 45px;
+}
+.red-line span {
+    background: red;
+    display: block;
+    height: 1px;
+    left: 48%;
+    line-height: 1;
+    position: absolute;
+    width: 70px;
+}
+.suffescom-p {
+    color: #6a7071;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align-last: center;
+    font-family: proxima_novalight;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.super-strength {
+    float: left;
+    padding: 60px 0 0;
+    width: 100%;
+}
+.our-super h3 {
+    color: #3a3939;
+    font-size: 40px;
+    margin: 0;
+    font-family: proxima_novalight;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
+}
+strong {
+    color: #E92B26;
+    font-family: proxima_novasemibold;
+}
+.super-strength figure {
+    float: left;
+    margin-top: 60px;
+    width: 100%;
+    display: block;
+}
+.mission-area {
+    float: left;
+    width: 100%;
+}
+.mission-block {
+    background-image: url(../img/mission-pic.jpg);
+    float: left;
+    height: 720px;
+    position: relative;
+    width: 65%;
+    display: table;
+}
+.mission-content {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    padding: 50px;
+    position: relative;
+    vertical-align: bottom;
+}
+.mission-content > h3 {
+    color: #fff;
+    float: left;
+    font-family: proxima_novabold;
+    font-size: 70px;
+    margin: 0;
+    width: 100%;
+}
+.mission-content * {
+    position: relative;
+    z-index: 10;
+}
+.mission-content span {
+    float: left;
+    font-family: proxima_novalight;
+    letter-spacing: 1px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.mission-content > h3 {
+    color: #fff;
+    font-family: proxima_novabold;
+    font-size: 70px;
+    text-align: left;
+    line-height: 1;
+}
+.mission-content > p {
+    color: #fff;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 19px;
+    padding-right: 35%;
+    width: 100%;
+}
+.mission-content .submit-btn {
+    float: left;
+    margin-top: 20px;
+    padding: 7px 25px 7px 60px;
+}
+.submit-btn {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #E92B26;
+    background-image: url(../img/send1.png);
+    background-origin: padding-box;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    border: 1px solid #E92B26;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    height: auto;
+    padding: 10px 25px 10px 60px;
+    width: auto;
+    font-family: proxima_novaregular;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+.mission-content::after {
+    background-image: url(../img/mission-slant.png);
+    height: 500px;
+    position: absolute;
+    width: 100%;
+}
+.mission-block::after, .mission-content::after {
+    left: 0;
+    bottom: 0;
+    content: "";
+    right: 0;
+}
+.mission-block::after {
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+}
+.technology-block {
+    display: table;
+    float: left;
+    height: 360px;
+    width: 35%;
+}
+.tech-block.tech-block1 {
+    background-image: url(../img/cont-pic.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.tech-block1 {
+    background-color: #E92B26;
+    display: table-cell;
+    float: none;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 40px;
+}
+.tech-block.tech-block1 > h4 {
+    color: #363434;
+}
+.tech-block.tech-block1 * {
+    position: relative;
+    z-index: 10;
+}
+.tech-block1 > h4 {
+    color: #fff;
+    font-family: proxima_novasemibold;
+    font-size: 23px;
+    letter-spacing: .5px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.tech-block.tech-block1 {
+    text-align: center;
+}
+.tech-block.tech-block1 > ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.tech-block.tech-block1 li {
+    display: inline-block;
+    padding: 0 10px;
+}
+img {
+    vertical-align: middle;
+}
+hr, img {
+    border: 0;
+}
+.technology-block {
+    display: table;
+    float: left;
+    height: 360px;
+    width: 35%;
+}
+.tech-block1 {
+    background-color: #E92B26;
+    display: table-cell;
+    float: none;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 40px;
+}
+.tech-block1 > h4 {
+    color: #fff;
+    font-family: proxima_novasemibold;
+    font-size: 23px;
+    letter-spacing: .5px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.tech-block1 > p {
+    color: #fff;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 23px;
+    width: 100%;
+}
+.tech-block1 .submit-btn {
+    background-color: #ffbe3b;
+    float: left;
+    margin: 20px 0 0;
+    padding: 7px 25px 7px 60px;
+    border: none;
+}
+.submit-btn {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #E92B26;
+    background-image: url(../img/send1.png);
+    background-origin: padding-box;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    border: 1px solid #E92B26;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    height: auto;
+    padding: 10px 25px 10px 60px;
+    width: auto;
 }
 .about-company {
     text-align: center;
@@ -518,6 +831,7 @@ body{
     padding-top: 37px;
     width: 100%;
     border-bottom: 4px solid #0f2028;
+    overflow: auto;
 }
 h5 {
     color: #ddd;
@@ -1112,6 +1426,10 @@ h3 {
     min-height: 300px;
     
 }
+a {
+    color: #303134;
+    text-decoration: none;
+}
 
 .carousel-control-prev-icon {
     display: inline-block;
@@ -1297,6 +1615,219 @@ button.bri-btn {
     width: 1170px;
     text-align: center;
 }
+.vision-header {
+    background: url(../img/vsion-header-bg.jpg) 0 0/cover no-repeat rgba(0, 0, 0, 0);
+    display: table;
+    float: left;
+    height: 285px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.title-header-content {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.vision-header .title-header-content h1 {
+    color: #fff;
+    float: left;
+    font-family: proxima_novaregular;
+    font-size: 50px;
+    margin: 0 0 15px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.vision-header .title-header-content > p {
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-family: proxima_novaregular;
+    font-size: 20px;
+    max-width: 1008px;
+    width: 100%;
+}
+.vision-header {
+    text-align: center;
+}
+.vision-content {
+    float: left;
+    padding: 75px 0;
+    text-align: center;
+    width: 100%;
+}
+.vision-content h2 {
+    float: left;
+    font-family: proxima_novasemibold;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.vision-content h2 span {
+    color: #6a7071;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 17px;
+    margin: 10px 0;
+    text-transform: none;
+    width: 100%;
+}
+.vision-content .red-line {
+    float: left;
+    line-height: 1;
+    margin: 10px 0 15px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.red-line > span {
+    background: red;
+    display: block;
+    height: 1px;
+    left: 50%;
+    line-height: 1;
+    position: absolute;
+    width: 70px;
+}
+.custom-panel-head::after, .red-line > span, .screoll_up, .title-header::after {
+    transform: translateX(-50%);
+}
+.vision-content p {
+    color: #6a7071;
+    display: inline-block;
+    float: none;
+    font-family: proxima_novalight;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 1000px;
+    text-align: center;
+    width: 100%;
+}
+.vision-block {
+    background: #3fc0e7;
+    border-radius: 10px;
+    float: left;
+    padding: 20px 15px;
+    width: 90%;
+    margin: 35px 0 0;
+}
+.vision-block > figure {
+    float: left;
+    height: 250px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.vision-block figcaption {
+    float: left;
+    width: 100%;
+}
+.vision-block figcaption h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.3;
+}
+.quality-header .title-header-content h1, .vision-block figcaption h3 {
+    float: left;
+    margin: 0 0 15px;
+    font-family: proxima_novaregular;
+    width: 100%;
+    font-weight: 500;
+}
+.vision-content .vision-block p {
+    color: #fff;
+    float: left;
+    font-family: proxima_novaregular;
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+}
+.partners {
+    width: 100%;
+}
+.partners .partners-banner {
+    width: 100%;
+    background: #e9f0f4;
+    padding: 60px 0;
+    text-align: center;
+}
+.partners .partners-banner h1 {
+    color: #3fc0e7;
+    font-size: 63px;
+    font-family: proxima_novasemibold;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0px auto;
+
+}
+.partners .partners-banner {
+    text-align: center;
+}
+.partners .partners-banner h3 {
+    color: #5f5f5f;
+    font-size: 28px;
+    font-family: proxima_novaregular;
+    line-height: 32px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.pull-left {
+    float: left !important;
+}
+.partners-content {
+    width: 100%;
+    background: url(../img/partners-map.png) center center no-repeat;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+.awards h5,.partners-content h5 {
+    font-family: proxima_novasemibold;
+    font-size: 22px;
+    margin: 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.partners-content ul {
+    display: block;
+    padding: 0;
+}
+.partners-content ul li {
+    display: inline-block;
+    width: 100%;
+    margin-right: 2%;
+    margin-bottom: 25px;
+}
+.awards ul li, .partners-content ul li {
+    border: 1px solid #e6e6e6;
+    max-width: 271px;
+}
+.awards {
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.awards ul li {
+    display: inline-block;
+    width: 100%;
+    margin-right: 2%;
+    margin-bottom: 25px;
+}
+.awards ul{
+    padding: 0px;
+}
  @media only screen and (max-width: 768px) {
     .sec1-container{
         text-align: center;
@@ -1305,6 +1836,157 @@ button.bri-btn {
         margin: 0 auto;
         left: 0;
         right: 0;
+    }
+    .partners .partners-banner h1 {
+        font-size: 35px;
+    }
+    .partners .partners-banner h3 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .partners .partners-banner h3 br {
+        display: none;
+    }
+    .vision-content p {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: justify;
+        text-align-last: center;
+        margin: 0;
+        padding: 0;
+    }
+    .vision-block {
+        display: inline-block;
+        float: none;
+        max-width: 380px;
+        min-height: auto !important;
+        padding: 20px 15px;
+        width: 100%;
+    }
+    .about-banner-1{
+        height: auto;
+        padding: 50px 0;
+        text-align: center;
+        background-position: center center;
+    }
+    .one-stop h1{
+        display: inline-block;
+        float: none;
+        max-width: 480px;
+        width: 100%;
+        font-size: 24px;
+    }
+    .an-idea {
+        display: inline-block;
+        float: none;
+        max-width: 480px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .container.about-container {
+        max-width: 375px;
+    }
+    .about-us {
+        padding: 39px 0;
+    }
+    .one-stop h1{
+        float: left;
+        font-family: proxima_novasemibold;
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .container {
+        width: auto;
+    }
+    .web-and {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .red-line {
+        margin: 12px 0 30px;
+    }
+    .red-line span {
+        background: red;
+        display: block;
+        height: 1px;
+        left: 50%;
+        line-height: 1;
+        position: absolute;
+        width: 70px;
+    }
+    .suffescom-p {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: justify;
+        text-align-last: center;
+        margin: 0;
+        padding: 0;
+    }
+    .our-super h3 {
+        font-size: 24px;
+    }
+    .mission-block {
+        height: 480px;
+        width: 100%;
+    }
+    .about-banner, .mission-block {
+        background-position: center center;
+    }
+    .mission-content {
+        padding: 20px;
+    }
+    .mission-content > h3 {
+        font-size: 34px;
+    }
+    .mission-content > p {
+        font-size: 16px;
+        padding-right: 5%;
+        width: 100%;
+    }
+    .submit-btn {
+        background: url(../img/send1.png) 20px center/22px auto no-repeat #E92B26;
+        margin: 0 auto;
+            margin-top: 0px;
+        padding: 10px 25px 10px 50px;
+        width: auto;
+    }
+    .custom-input, .submit-btn {
+        height: auto;
+        font-size: 14px;
+    }
+    .mission-content::after {
+        height: 80%;
+    }
+    .technology-block {
+        display: table;
+        float: left;
+        height: 320px;
+        width: 100%;
+    }
+    .tech-block1 {
+        padding: 20px;
+        text-align: center;
+    }
+    .tech-block.tech-block1 li {
+        display: inline-block;
+        margin: 0 0 15px;
+        padding: 0 10px;
+    }
+    .tech-block1 > p {
+        
+        width: 100%;
+    }
+    .tech-block1 .submit-btn {
+        display: inline-block;
+        float: none;
+        padding: 7px 25px 7px 50px;
+    }
+    .submit-btn {
+        background: url(../img/send1.png) 20px center/22px auto no-repeat #E92B26;
+        
+        width: auto;
     }
     .sec-3-container {
         margin: 0px auto;
@@ -1451,6 +2133,7 @@ button.bri-btn {
         padding-top: 37px;
         width: 100%;
         border-bottom: 4px solid #0f2028;
+        overflow: auto;
     }
     .f-col ul {
         padding-left: 0rem;
@@ -1599,7 +2282,7 @@ max-width: 100%;
         text-align: center;
         width: 100%;
     }
-    .col-6.sec-6-col {
+    .col-7.sec-6-col {
         flex: 0 0 auto;
         width: 100%;
     }
@@ -1954,11 +2637,25 @@ max-width: 100%;
         width: 100%;
         border-bottom: 4px solid #0f2028;
         display: none;
+        overflow: auto;
     }
     .img-fluid.sec-8-img.to-change {
         width: 14%!important;
         margin-top: 25px!important;
         margin-bottom: 15px!important;
+    }
+    .vision-header .title-header-content h1{
+        font-family: proxima_novaregular;
+        font-size: 32px;
+    }
+    .vision-header .title-header-content > p{
+        display: inline-block;
+        float: none;
+        font-size: 17px;
+        line-height: 1.5;
+        max-width: 520px;
+        padding: 0;
+        width: 100%;
     }
 
 
