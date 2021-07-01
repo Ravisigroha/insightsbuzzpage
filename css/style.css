@@ -27,6 +27,10 @@ body{
 .container-fluid {
     padding: 0px;
 }
+.container.f-container {
+    width: 1170px !important;
+    min-width: -moz-available;
+}
 .container {
     width: 1170px;
     margin: 0px auto;
@@ -1828,6 +1832,390 @@ button.bri-btn {
 .awards ul{
     padding: 0px;
 }
+.cofi-title-header {
+    background: #38b8df;
+    display: table;
+    float: left;
+    height: 285px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.title-header-content {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.cofi-title-header .title-header-content h1 {
+    color: #fff;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 50px;
+    line-height: 38px;
+    margin: 0 0 15px;
+    width: 100%;
+    font-weight: 500;
+}
+.cofi-title-header .title-header-content > p {
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-family: proxima_novaregular;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 100%;
+    width: 60%;
+}
+.policy-content {
+    float: left;
+    padding: 75px 0;
+    position: relative;
+    width: 100%;
+}
+.col-md-4.privacy-policy-col{
+    float: left;
+}
+.policy-steps {
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.policy-steps h4 {
+    color: #3a3939;
+    float: left;
+    font-family: proxima_novasemibold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.policy-steps p {
+    color: #6a7071;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+}
+.nice-met {
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+}
+.img-sec {
+    display: table;
+    text-align: right;
+    width: 40%;
+    float: left;
+    padding: 0 15px;
+}
+.img-sec > figure {
+    display: table-cell;
+    height: 320px;
+    vertical-align: middle;
+}
+.cont-sec {
+    width: 60%;
+    float: left;
+    padding: 0 15px;
+}
+.cont-sec h2 {
+    color: #4b4b4b;
+    float: left;
+    font-size: 44px;
+    width: 100%;
+    margin-top: 0;
+    font-family: proxima_novabold;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.cont-sec p {
+    color: #505050;
+    float: left;
+    font-family: proxima_novalight;
+    font-size: 21px;
+    line-height: 26px;
+    width: 100%;
+}
+.cont-sec h4 {
+    color: #60923b;
+    font-size: 28px;
+    line-height: 1;
+    font-family: proxima_novaregular;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.cont-sec > ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.cont-sec li {
+    color: #5a5a5a;
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 8px;
+    padding-left: 25px;
+    position: relative;
+    font-family: proxima_novaregular;
+    width: 100%;
+    float: left;
+}
+.cont-sec li::after {
+    color: #5f923a;
+    content: "";
+    font-family: fontawesome;
+    font-size: 9px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    background-color: #5f923a;
+    border-radius: 33px;
+}
+.cont-part-sec, .portfolio-list {
+    width: 100%;
+    float: left;
+}
+.cont-part-sec {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone-support {
+    background: #3fc0e7;
+    padding: 32px 35px;
+    width: 25%;
+    order: 3;
+    float: right;
+    min-height: 760px;
+}
+.phone-support > h3 {
+    border-bottom: 1px solid #25a7cf;
+    color: #fff;
+    font-family: proxima_novasemibold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    margin-top: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.address-location {
+    margin-bottom: 40px;
+    width: 100%;
+    float: left;
+}
+.loc1 {
+    background: #38b8df;
+    display: table;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+    float: left;
+}
+.loc1 > figure {
+    height: 88px;
+    padding: 0 15px;
+    position: relative;
+    vertical-align: bottom;
+    width: 45%;
+    display: table-cell;
+    text-align: center;
+}
+.faq > h3, .loc1 span {
+    width: 100%;
+    float: left;
+}
+.loc1 > figcaption {
+    color: #fff;
+    float: none;
+    font-family: proxima_novasemibold;
+    font-size: 19px;
+    height: 88px;
+    line-height: 1;
+    padding: 0 10px;
+    vertical-align: middle;
+    width: 55%;
+    display: table-cell;
+    text-align: center;
+}
+.faq > h3.loc1 span {
+    width: 100%;
+    float: left;
+}
+.phone-support > p {
+    color: #fff;
+    float: left;
+    font-family: proxima_novaregular;
+    font-size: 16px;
+    line-height: 1;
+    width: 100%;
+}
+.cont-list {
+    float: left;
+    margin: 17px 0;
+    padding: 0;
+    width: 100%;
+}
+.cont-list li {
+    color: #0d6d8a;
+    font-family: proxima_novasemibold;
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    position: relative;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+}
+.cont-list li a {
+    color: #fff;
+}
+.mail::after {
+    top: 0;
+}
+.mail::after {
+    content: "";
+}
+.mail::after, .skype::after {
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+}
+.skype::after {
+    content: "";
+}
+.contact-area {
+    background: #f5f5f5;
+    padding: 35px 35px 0;
+    width: 50%;
+    order: 2;
+    float: right;
+    min-height: 760px;
+}
+.contact-area > h3 {
+    border-bottom: 1px solid #d9d9d9;
+    color: #E92B26;
+    font-family: proxima_novabold;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    margin-top: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.contact-area > form {
+    float: left;
+    width: 100%;
+    margin-bottom: 29px;
+}
+.contact-area .form-group {
+    float: left;
+    margin-bottom: 19px;
+    width: 100%;
+}
+.contact-area label {
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.contact-area label, .custom-input, .submit-btn {
+    font-family: proxima_novaregular;
+}
+label {
+    
+    max-width: 100%;
+   
+}
+.custom-input {
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    height: auto;
+    padding: 10px 15px;
+    position: relative;
+    transition: all .5s ease 0s;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    -webkit-appearance: none;
+    line-height: inherit;
+
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.faq.contact_ratus {
+    background: #3fc0e7;
+    padding: 37px 30px 20px;
+}
+.faq {
+    
+    float: left;
+    max-width: 100%;
+    min-height: 760px;
+    
+    width: 25%;
+    position: relative;
+}
+.faq.contact_ratus .rating_logoh {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.faq > h3 {
+    color: #fff;
+    font-family: proxima_novabold;
+    
+    line-height: 1;
+  
+    text-align: center;
+}
+.faq.contact_ratus .rateus_logsec {
+    text-align: center;
+    margin: 20px 0 20px;
+    display: inline-block;
+    width: 100%;
+}
+.faq.contact_ratus img {
+    float: none;
+    width: 110px;
+    margin-bottom: 20px;
+    height: 110px;
+    object-fit: scale-down;
+    border-radius: 100%;
+    border: 0px solid #fff;
+}
+.faq.contact_ratus .rating {
+    font-size: 36px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #fff;
+}
+iframe {
+    float: left;
+    width: 100%;
+    border: 0;
+}
  @media only screen and (max-width: 768px) {
     .sec1-container{
         text-align: center;
@@ -1836,6 +2224,39 @@ button.bri-btn {
         margin: 0 auto;
         left: 0;
         right: 0;
+    }
+    .cofi-title-header .title-header-content h1, .commit-to-built h1, .quality-header .title-header-content h1, .vision-header .title-header-content h1, section.sof-dev-section h1 {
+        font-family: proxima_novaregular;
+        font-size: 32px;
+    }
+    .cofi-title-header .title-header-content > p, .commit-to-built p, .cs-title-header .title-header-content p, .current-opening p, .quality-header .title-header-content > p, .vision-header .title-header-content > p, section.sof-dev-section p {
+        display: inline-block;
+        float: none;
+        font-size: 17px;
+        line-height: 1.5;
+        max-width: 520px;
+        padding: 0;
+        width: 100%;
+    }
+    .policy-pic {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .img-sec-p > img, .policy-pic > img {
+        height: 200px;
+    }
+    .policy-steps h4 {
+        font-size: 18px;
+        margin: 10px 0 20px;
+        text-align: center;
+    }
+    .policy-steps p{
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: justify;
+        text-align-last: center;
+        margin: 0;
+        padding: 0;
     }
     .partners .partners-banner h1 {
         font-size: 35px;
@@ -2656,6 +3077,130 @@ max-width: 100%;
         max-width: 520px;
         padding: 0;
         width: 100%;
+    }
+    .img-sec {
+        display: block;
+        float: left;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .img-sec > figure {
+        display: inline-block;
+        height: auto;
+        margin-bottom: 20px;
+        vertical-align: middle;
+        width: 200px;
+    }
+    .cont-sec {
+        float: left;
+        padding: 0;
+        width: 100%;
+    }
+    .cont-sec h2 {
+        font-size: 24px;
+    }
+    .cont-sec p {
+        font-size: 14px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    .cont-sec h4 {
+        font-size: 18px;
+        line-height: 1;
+        width: 100%;
+    }
+    .cont-sec li {
+        font-size: 14px;
+        list-style: none;
+        margin-bottom: 8px;
+        padding-left: 20px;
+        position: relative;
+        width: 100%;
+    }
+    .cont-sec li::after {
+        color: #5f923a;
+        content: "";
+        font-family: fontawesome;
+        left: 0;
+        position: absolute;
+        top: 5px;
+        background-color: #5f923a;
+        border-radius: 33px;
+    }
+    .cont-part-sec {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-area, .faq, .phone-support {
+        min-height: auto;
+        padding: 20px 15px;
+        width: 100%;
+    }
+    .phone-support {
+        order: 2;
+    }
+    .phone-support > h3{
+        text-align: center;
+    }
+    .loc1 > figcaption {
+        font-size: 16px;
+    }
+    .phone-support > p {
+        font-size: 15px;
+        line-height: 1;
+        width: 100%;
+    }
+    .cont-list li {
+        
+        padding-left: 0px;
+    }
+    .contact-area {
+        order: 1;
+    }
+    .contact-area > h3{
+        text-align: center;
+    }
+    .custom-input {
+        
+        transition: all .5s ease 0s;
+        width: 100%;
+    }
+    .custom-input, .submit-btn {
+        height: auto;
+        
+    }
+    .faq {
+        order: 3;
+    }
+    .faq.contact_ratus .rating_logoh {
+        font-size: 21px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 26px;
+    }
+    .faq.contact_ratus .rateus_logsec {
+        margin: 20px 0 10px;
+    }
+    .faq.contact_ratus img {
+        width: 80px;
+        margin-bottom: 20px;
+        height: 80px;
+    }
+    .faq.contact_ratus .rating {
+        font-size: 22px;
+    }
+    .faq.contact_ratus {
+        background-color: #fff;
+    }
+    .faq.contact_ratus .rating_logoh {
+        color: #4b4b4b;
+        font-weight: 300;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .faq.contact_ratus .rating {
+        color: #e92b26;
     }
 
 
